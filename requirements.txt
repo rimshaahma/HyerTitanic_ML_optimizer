@@ -1,0 +1,33 @@
+
+pandas==1.5.3
+scikit-learn==1.0.2
+matplotlib==3.5.2
+tkinter==8.6
+```
+
+### **Explanation of Dependencies**:
+
+1. **pandas**: This is used for data manipulation and analysis. It helps in reading the CSV files, preprocessing the data, and managing data frames.
+   - **Version**: `1.5.3` is a stable version that supports most common data manipulation tasks.
+
+2. **scikit-learn**: This is the primary library for machine learning in Python. It provides tools for model building, cross-validation, and hyperparameter tuning, including `GridSearchCV` and `RandomizedSearchCV`.
+   - **Version**: `1.0.2` is a stable version known for robust model training and evaluation.
+
+3. **matplotlib**: This library is used for plotting and visualizations. In case you wish to visualize the results (though not explicitly required by the current code, it's often useful for plotting model performance).
+   - **Version**: `3.5.2` is a commonly used version of matplotlib with good compatibility.
+
+4. **tkinter**: This is the standard GUI library for Python. It is used to create the graphical interface of the Titanic survival prediction app.
+   - **Version**: `8.6` is the built-in version of tkinter that should work on most systems.
+
+### **How to Install Dependencies**:
+
+Once you’ve added the `requirements.txt` file to your project folder, you can install the necessary packages by running the following command in your terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+This command will automatically install all the libraries listed in the `requirements.txt` file.
+
+---
+
